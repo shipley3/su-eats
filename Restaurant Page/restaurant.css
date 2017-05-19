@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.left-side{
+    height:100%;
+    width:200px;
+    position:fixed;
+    overflow:auto;
+    background-color: red;
+}
+
+button{
+    width:100%;
+    border:none;
+    padding:40px 40px;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+button:hover{
+   background-color:  #e88686;
+}
