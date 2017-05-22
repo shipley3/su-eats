@@ -6,12 +6,13 @@ body {
 
 .left-side {
     height: 100%;
-    width: 25%px;
-    position: fixed;
-    overflow: auto;
+    width: 15%;
+    position: absolute;
     background-color: #aa4b39;
     margin-top: 5px;
     margin-left: 5px;
+    margin-bottom: 0;
+    overflow-y: initial;
 }
 
 button {
@@ -83,7 +84,6 @@ div.search {
     width: auto;
     padding: 15px;
     padding-top: 50px;
-    position relative;
     padding-left: 17%;
 }
 
@@ -143,12 +143,6 @@ input[type=text] {
     height: 5px;
 }
 
-.content {
-    width: 75%;
-    margin-left: 245px;
-    position: fixed;
-}
-
-.long{
-    text-align: left;
+hr{
+    color: black;
 }
