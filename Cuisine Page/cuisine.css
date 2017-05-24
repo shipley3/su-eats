@@ -5,7 +5,7 @@ body {
 }
 
 .left-side {
-    height: fixed;
+    height: auto;
     width: 150px;
     position: fixed;
     background-color: #aa4b39;
@@ -133,9 +133,8 @@ input[type=text] {
 }
 
 .content{
-    float: center;
-	margin-left: 600px;
-	margin-right: 600px;
+	margin-left: 35%;
+	margin-right: 35%;
 }
 
 .pizza_image{
@@ -143,7 +142,7 @@ input[type=text] {
 }
 
 .long{
-	height: fixed;
+	height: auto;
 	text-align: center;
 	background-color: #aa4b39;
 	margin-bottom: 30px;
