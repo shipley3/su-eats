@@ -9,8 +9,9 @@ body {
     width: 150px;
     position: fixed;
     background-color: #aa4b39;
-    margin-top: 5px;
+    margin-top: 129px;
     margin-left: 5px;
+    margin-bottom: initial;
     float: left;
 }
 
@@ -71,6 +72,7 @@ h1 {
     top: 0;
     width: 100%;
     height: 150px;
+    position: fixed;
 }
 
 div.search {
@@ -101,9 +103,9 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-    input[type=text]:focus {
-        width: 110%;
-    }
+input[type=text]:focus {
+    width: 110%;
+}
 
 .parent {
     position: relative;
@@ -132,9 +134,9 @@ input[type=text] {
     padding-top: 25px;
 }
 
-.content{
-	margin-left: 35%;
-	margin-right: 35%;
+.content {
+    padding-top: 114px;
+    text-align: center;
 }
 
 .pizza_image{
@@ -142,7 +144,8 @@ input[type=text] {
 }
 
 .long{
-	height: auto;
+    width: 400px;
+	height: 200px;
 	text-align: center;
 	background-color: #aa4b39;
 	margin-bottom: 30px;

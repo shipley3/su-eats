@@ -9,8 +9,9 @@
     width: 150px;
     position: fixed;
     background-color: #aa4b39;
-    margin-top: 5px;
+    margin-top: 150px;
     margin-left: 5px;
+    margin-bottom: initial;
     float: left;
 }
 
@@ -24,9 +25,11 @@ button {
     font-size: 16px;
     transition: all 0.5s;
 }
+
 button:hover {
     background-color: #e88686;
 }
+
 button span {
     display: inline-block;
     position: relative;
@@ -69,6 +72,7 @@ h1 {
     top: 0;
     width: 100%;
     height: 150px;
+    position: fixed;
 }
 
 div.search {
@@ -99,9 +103,9 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-    input[type=text]:focus {
-        width: 110%;
-    }
+input[type=text]:focus {
+    width: 110%;
+}
 
 .parent {
     position: relative;
@@ -131,10 +135,17 @@ input[type=text] {
 }
 
 .content {
-    margin-top: 2.5%;
+    padding-top: 175px;
     text-align: center;
 }
 
 .pizza_image {
     height: 300px;
+}
+
+.tab {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 100px;
+    background-color: #aa4b39;
 }
